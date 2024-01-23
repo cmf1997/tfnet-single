@@ -13,7 +13,7 @@ EP300,TAF1 were removed due to absent of DBD
 
 concat all train data and leave MAFF TBP for eval
 ls *.data_train.txt.gz | grep -v MAFF.data_train.txt.gz | grep -v TBP.data_train.txt.gz | xargs -p gunzip -c > all.data_train.txt
-ls *.data_train.txt.gz | grep -E 'MAFF|TBP' | grep train.txt.gz | xargs -p gunzip -c > select.data_valid.txt
+ls *.data_valid.txt.gz | grep -E 'MAFF|TBP' | grep valid.txt.gz | xargs -p gunzip -c > select.data_valid.txt
 
 or
 ls *.txt.gz | grep -v MAFF | grep -v TBP | xargs -p gunzip -c > all.data.txt
