@@ -12,6 +12,14 @@ test data were downloaded from https://www.synapse.org/#!Synapse:syn6131484/wiki
 EP300,TAF1 were removed due to absent of DBD
 
 concat all train data and leave MAFF TBP for eval
+dbd info no CCNT2, P300, RAD21, SMC3
+and 
+p300 - ep300
+pu1 - spi1
+NR2C2 - TR4
+are the same 
+rm CCNT2, P300, RAD21, SMC3, pu1, NR2C2, p300
+
 ls *.data_train.txt.gz | grep -v MAFF.data_train.txt.gz | grep -v TBP.data_train.txt.gz | xargs -p gunzip -c > all.data_train.txt
 ls *.data_valid.txt.gz | grep -E 'MAFF|TBP' | grep valid.txt.gz | xargs -p gunzip -c > select.data_valid.txt
 
