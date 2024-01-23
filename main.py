@@ -36,7 +36,7 @@ def train(model, data_cnf, model_cnf, train_data, valid_data=None, class_weights
         train_data, valid_data = train_test_split(train_data, test_size=data_cnf.get('valid', 0.2),
                                                   random_state=random_state)
     train_loader = DataLoader(TFBindDataset(train_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
-                              batch_size=model_cnf['train']['batch_size'], shuffle=False)
+                              batch_size=model_cnf['train']['batch_size'], shuffle=True)
     valid_loader = DataLoader(TFBindDataset(valid_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
                               batch_size=model_cnf['valid']['batch_size'])
     model.train(train_loader, valid_loader, class_weights_dict, **model_cnf['train'])
@@ -180,22 +180,6 @@ def main(data_cnf, model_cnf, mode, continue_train, start_id, num_models, allele
             scores_list.append(scores_)
             output_eval(group_names_, truth_, np.mean(scores_list, axis=0), res_path.with_name(f'{res_path.stem}-LOMO'))
 
-
-        '''
-    elif mode == 'binding':
-        model_cnf['padding'] = model_cnf['binding']
-        data_list = get_binding_data(data_cnf['binding'], mhc_name_seq, model_cnf['model']['peptide_pad'])
-        (core_pos, scores), correct = get_binding_core(data_list, model_cnf, model_path, start_id, num_models), 0
-        for d, core_pos_, scores_ in zip(data_list, core_pos, scores):
-            (pdb, mhc_name, core), peptide_seq = d[0], d[1]
-            core_ = peptide_seq[core_pos_: core_pos_ + 9]
-            print(pdb, mhc_name, peptide_seq, core, core_, core == core_)
-            if core != core_:
-                for i, s in enumerate(scores_[:len(peptide_seq) - len(core) + 1]):
-                    print(peptide_seq[i: i + len(core)], s)
-            correct += core_ == core
-        logger.info(f'The number of correct prediction is {correct}.')
-        '''
 
     elif mode == 'seq2logo':
         assert allele in mhc_name_seq
