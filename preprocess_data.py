@@ -10,6 +10,15 @@
 blacklist were downloaded from https://github.com/Boyle-Lab/Blacklist/blob/master/lists/hg19-blacklist.v2.bed.gz
 test data were downloaded from https://www.synapse.org/#!Synapse:syn6131484/wiki/402033
 EP300,TAF1 were removed due to absent of DBD
+
+concat all train data and leave MAFF TBP for eval
+ls *.data_train.txt.gz | grep -v MAFF.data_train.txt.gz | grep -v TBP.data_train.txt.gz | xargs -p gunzip -c > all.data_train.txt
+ls *.data_train.txt.gz | grep -E 'MAFF|TBP' | grep train.txt.gz | xargs -p gunzip -c > all.data_valid.txt
+
+or
+ls *.txt.gz | grep -v MAFF | grep -v TBP | xargs -p gunzip -c > all.data.txt
+
+
 '''
 
 # here put the import lib
