@@ -1,0 +1,22 @@
+tf_seq : data/tf_pseudosequences.txt
+
+train: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+
+#valid: data/tf_chip/lazy/data_valid.txt.gz
+test: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+
+genome_fasta_file: data/genome/hg19.genome.fa
+bigwig_file: ['data/atac/GM12878.bw']
+
+results: results
+
+#preprocess
+input_dir: data/tf_chip/K562/
+genome_window_step: 50
+target_window_size: 200
+valid_chroms: ['chr11']
+#test_chroms: ['chr1', 'chr8', 'chr21']
+test_chroms: ['chr1', 'chr8', 'chr21', 'chr2', 'chr9']
+genome_sizes_file: data/tf_chip/hg19.autoX.chrom.sizes
+blacklist_file: data/tf_chip/filter_blacklist.bed

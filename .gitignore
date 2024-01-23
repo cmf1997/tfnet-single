@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.ipynb_checkpoints
+/model*
+/result*
+/log*
+/notebook*
+/data/temp
+/data/tf_chip
+/data/genome
+/data/tf_chip
+/data/atac
+/data/fimo_out
+.DS_Store
