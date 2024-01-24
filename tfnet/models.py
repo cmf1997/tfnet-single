@@ -129,6 +129,8 @@ class Model(object):
         valid_loss = torch.nn.functional.binary_cross_entropy_with_logits(torch.tensor(scores).to(mps_device), torch.tensor(targets).to(mps_device))
 
         auc = get_auc(targets, scores)
+        pcc = get_pcc(targets, scores)
+        srcc = get_srcc(targets, scores)
         f1_score = get_f1(targets, scores)
         recall_score = get_recall(targets, scores)
         aupr = get_aupr(targets, scores)
@@ -144,6 +146,8 @@ class Model(object):
                         f'valid loss: {valid_loss:.5f}  ' 
                         f'auc: {auc:.5f}  '
                         f'aupr: {aupr:.5f}  '
+                        f'pcc: {pcc:.5f}  '
+                        f'srcc: {srcc:.5f}  '
                         f'recall score: {recall_score:.5f}  '
                         f'f1 score: {f1_score:.5f}  '
                         f'accuracy: {accuracy:.5f}  '
