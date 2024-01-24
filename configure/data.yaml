@@ -6,8 +6,8 @@ train: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
 test: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
 predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
 
-genome_fasta_file: data/genome/hg19.genome.fa
-bigwig_file: ['data/atac/GM12878.bw']
+genome_fasta_file: ../TFNET-multi-tf/data/genome/hg19.genome.fa
+bigwig_file: ['../TFNET-multi-tf/data/atac/K562.bw']
 
 results: results
 

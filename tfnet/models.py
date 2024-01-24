@@ -20,7 +20,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from logzero import logger
 from typing import Optional, Mapping, Tuple
-from tfnet.evaluation import get_auc, get_f1, get_accuracy_score, get_balanced_accuracy_score, get_recall, get_aupr
+from tfnet.evaluation import get_auc, get_f1, get_accuracy_score, get_balanced_accuracy_score, get_recall, get_aupr, get_pcc, get_srcc
 import matplotlib.pyplot as plt
 import pdb
 import warnings 
