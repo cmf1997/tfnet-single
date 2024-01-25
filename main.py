@@ -85,6 +85,9 @@ def main(data_cnf, model_cnf, mode, continue_train, start_id, num_models, allele
     Path(data_cnf['results']).mkdir(parents=True, exist_ok=True)
     model_cnf.setdefault('ensemble', 20)
     tf_name_seq = get_tf_name_seq(data_cnf['tf_seq'])
+
+    seq_name_tf = {v : k for k ,v in tf_name_seq.items()}
+
     get_data_fn = partial(get_data_lazy, tf_name_seq=tf_name_seq, genome_fasta_file= data_cnf['genome_fasta_file'], DNA_N = model_cnf['padding']['DNA_N'])
 
     classweights = model_cnf['classweights']
@@ -109,25 +112,26 @@ def main(data_cnf, model_cnf, mode, continue_train, start_id, num_models, allele
 
         #chr, start, stop, targets_lists = [x[0] for x in test_data], [x[1] + shift for x in test_data], [x[2] - shift for x in test_data], [x[-2] for x in test_data] # depend on the input data len
         chr, start, stop, targets_lists, tfs = [x[0] for x in test_data], [x[1] for x in test_data], [x[2] for x in test_data], [x[-2] for x in test_data],  [x[-1] for x in test_data]
-
+        tf_names = [ seq_name_tf[i] for i in tfs]
         scores_lists = []
         for model_id in range(start_id, start_id + num_models):
             model = Model(TFNet, model_path=model_path.with_stem(f'{model_path.stem}-{model_id}'), class_weights_dict = class_weights_dict, tf_len = model_cnf['padding']['tf_len'],
                           **model_cnf['model'])
             scores_lists.append(test(model, data_cnf, model_cnf, test_data=test_data))
-        output_eval(chr, start, stop, np.array(targets_lists), np.mean(scores_lists, axis=0), tfs, res_path)
+        output_eval(chr, start, stop, np.array(targets_lists), np.mean(scores_lists, axis=0), tf_names, res_path)
     
     elif mode == 'predict':
         predict_data = get_data_fn(data_cnf['predict'])
         shift = int((model_cnf['padding']['DNA_len'] - model_cnf['padding']['target_len'])/2)
 
         chr, start, stop, targets_lists, tfs = [x[0] for x in test_data], [x[1] for x in test_data], [x[2] for x in test_data], [x[-2] for x in test_data],  [x[-1] for x in test_data]
+        tf_names = [ seq_name_tf[i] for i in tfs]
         scores_lists = []
         for model_id in range(start_id, start_id + num_models):
             model = Model(TFNet, model_path=model_path.with_stem(f'{model_path.stem}-{model_id}'), class_weights_dict = class_weights_dict, tf_len = model_cnf['padding']['tf_len'],
                           **model_cnf['model'])
             scores_lists.append(test(model, data_cnf, model_cnf, test_data=predict_data))
-        output_predict(chr, start, stop, np.mean(scores_lists, axis=0), tfs, res_path)
+        output_predict(chr, start, stop, np.mean(scores_lists, axis=0), tf_names, res_path)
 
     elif mode == '5cv':
         data = np.asarray(get_data_fn(data_cnf['train']), dtype=object)

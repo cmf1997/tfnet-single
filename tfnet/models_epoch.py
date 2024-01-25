@@ -135,7 +135,7 @@ class Model(object):
 
             train_data_single_epoch = train_data[W_chunks[epoch_idx]: W_chunks[epoch_idx + 1]]
             train_loader = DataLoader(TFBindDataset(train_data_single_epoch, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
-                              batch_size=model_cnf['train']['batch_size'], shuffle=False)
+                              batch_size=model_cnf['train']['batch_size'], shuffle=False) # must be shuffle=False
             # ---------------------- section ---------------------- #
 
             for inputs, targets in tqdm(train_loader, desc=f'Epoch {epoch_idx}', leave=False, dynamic_ncols=True):

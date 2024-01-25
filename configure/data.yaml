@@ -16,7 +16,6 @@ input_dir: data/tf_chip/K562/
 genome_window_step: 50
 target_window_size: 200
 valid_chroms: ['chr11']
-#test_chroms: ['chr1', 'chr8', 'chr21']
-test_chroms: ['chr1', 'chr8', 'chr21', 'chr2', 'chr9']
+test_chroms: ['chr1', 'chr8', 'chr21']
 genome_sizes_file: data/tf_chip/hg19.autoX.chrom.sizes
 blacklist_file: data/tf_chip/filter_blacklist.bed

@@ -21,7 +21,9 @@ are the same
 rm CCNT2, P300, RAD21, SMC3, pu1, NR2C2, p300
 
 ls *.data_train.txt.gz | grep -v MAFF.data_train.txt.gz | grep -v TBP.data_train.txt.gz | xargs -p gunzip -c > all.data_train.txt
-ls *.data_valid.txt.gz | grep -E 'MAFF|TBP' | grep valid.txt.gz | xargs -p gunzip -c > select.data_valid.txt
+ls *.data_valid.txt.gz | grep -E 'MAFF|TBP' | xargs -p gunzip -c > select.unseen.data_valid.txt
+ls *.data_valid.txt.gz | grep -E -v 'MAFF|TBP' | xargs -p gunzip -c > select.seen.leaveout.data_test.txt
+ls *.data_train.txt.gz | grep -E 'MAFF|TBP' | xargs -p gunzip -c > select.unseen.data_test.txt
 
 or
 ls *.txt.gz | grep -v MAFF | grep -v TBP | xargs -p gunzip -c > all.data.txt
