@@ -1,3 +1,7 @@
+
+
+
+
 # cell line atac seq not perturbation
 
 # for HepG2
@@ -24,4 +28,35 @@ https://www.ncbi.xyz/geo/query/acc.cgi?acc=GSM5848501
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195693
 
 # for H1
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85330  # day 0 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85330  # day 0  
+
+
+
+
+
+# ---------------------- DNase ---------------------- #
+# for h1
+https://www.encodeproject.org/experiments/ENCSR951BNY/
+# for hela-s3
+https://www.encodeproject.org/experiments/ENCSR959ZXU/
+# for HepG2
+https://www.encodeproject.org/experiments/ENCSR149XIL/
+
+
+# for WTC11
+https://www.encodeproject.org/experiments/ENCSR785ZUI/
+# for SK-N-SH
+https://www.encodeproject.org/experiments/ENCSR000ELQ/
+# for HEK293
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108513
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2902639
+
+
+
+
+# ---------------------- hg19 ---------------------- #
+# some data collected from factornet 
+# https://github.com/uci-cbcl/FactorNet/tree/master/data
+# HEK293 DNase download from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108513
+# WTC11 
+# SK-N-SH https://www.encodeproject.org/files/ENCFF000TEE/
