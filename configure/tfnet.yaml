@@ -2,7 +2,7 @@ name: TFNet
 path: models
 
 model:
-  emb_size: 6 # based on datasets_tfnet.py
+  emb_size: 12 # based on datasets_tfnet.py
   conv_size: [5, 9, 13, 17, 21]
   #conv_num: [128, 128, 128, 128, 128]
   conv_num: [16, 16, 16, 16, 16]

@@ -8,16 +8,16 @@ predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
 
 genome_fasta_file: ../TFNET-multi-tf/data/genome/hg19.genome.fa
 mappability: ../TFNET-multi-tf/data/genome/wgEncodeDukeMapabilityUniqueness35bp.bigWig
-chromatin: ['../TFNET-multi-tf/data/atac/hg19/A549.bw','../TFNET-multi-tf/data/atac/hg19/GM12878.bw','../TFNET-multi-tf/data/atac/hg19/H1ESC.bw',
-            '../TFNET-multi-tf/data/atac/hg19/HEK293.bw','../TFNET-multi-tf/data/atac/hg19/HeLa-S3.bw','../TFNET-multi-tf/data/atac/hg19/HepG2.bw',
-            '../TFNET-multi-tf/data/atac/hg19/K562.bw','../TFNET-multi-tf/data/atac/hg19/MCF-7.bw','../TFNET-multi-tf/data/atac/hg19/SK-N-SH.bw']
-            #'../TFNET-multi-tf/data/atac/hg19/WTC11.bw']
+chromatin: ['../TFNET-multi-tf/data/atac/A549.bw','../TFNET-multi-tf/data/atac/GM12878.bw','../TFNET-multi-tf/data/atac/H1ESC.bw',
+            '../TFNET-multi-tf/data/atac/HEK293.bw','../TFNET-multi-tf/data/atac/HeLa-S3.bw','../TFNET-multi-tf/data/atac/HepG2.bw',
+            '../TFNET-multi-tf/data/atac/K562.bw','../TFNET-multi-tf/data/atac/MCF-7.bw','../TFNET-multi-tf/data/atac/SK-N-SH.bw']
+            #'../TFNET-multi-tf/data/atac/WTC11.bw']
 
 
 results: results
 
 #preprocess
-input_dir: data/tf_chip/K562/
+input_dir: data/tf_chip/hg19/K562/
 genome_window_step: 50
 target_window_size: 200
 valid_chroms: ['chr11']

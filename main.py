@@ -35,16 +35,16 @@ def train(model, data_cnf, model_cnf, train_data, valid_data=None, class_weights
     if valid_data is None:
         train_data, valid_data = train_test_split(train_data, test_size=data_cnf.get('valid', 0.2),
                                                   random_state=random_state)
-    train_loader = DataLoader(TFBindDataset(train_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
+    train_loader = DataLoader(TFBindDataset(train_data, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
                               batch_size=model_cnf['train']['batch_size'], shuffle=True)
-    valid_loader = DataLoader(TFBindDataset(valid_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
+    valid_loader = DataLoader(TFBindDataset(valid_data, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
                               batch_size=model_cnf['valid']['batch_size'])
     model.train(train_loader, valid_loader, class_weights_dict, **model_cnf['train'])
     logger.info(f'Finish training model {model.model_path}')
 
 
 def test(model, data_cnf, model_cnf, test_data):
-    data_loader = DataLoader(TFBindDataset(test_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
+    data_loader = DataLoader(TFBindDataset(test_data, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
                              batch_size=model_cnf['test']['batch_size'])
     return model.predict(data_loader)
 

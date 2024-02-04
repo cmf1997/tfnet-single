@@ -31,6 +31,9 @@ ls *.txt.gz | grep -v MAFF | grep -v TBP | xargs -p gunzip -c > all.data.txt
 
 '''
 
+### note 
+
+
 # here put the import lib
 from ruamel.yaml import YAML
 from pybedtools import BedTool, Interval
@@ -135,14 +138,14 @@ def subset_chroms(chroms, bed):
 
 
 # ---------------------- make_features_multiTask ---------------------- #
-def write_result(filename, tfs_bind_data, result_filefolder, prefix):
+def write_result(filename, tfs_bind_data, result_filefolder, prefix, celltype):
     with open(result_filefolder + prefix + '.' + filename +'.txt', 'w') as output_file:
         writer = csv.writer(output_file, delimiter="\t")
         for chr, start, stop, target_array, tf in tfs_bind_data:
-            writer.writerow([chr, start, stop, target_array, tf])
+            writer.writerow([chr, start, stop, target_array, tf, celltype])
 
 
-def make_features_SingleTask(genome_sizes_file, tf, positive_windows, target_window_size, genome_window_size, nonnegative_regions, valid_chroms, test_chroms, result_filefolder):
+def make_features_SingleTask(genome_sizes_file, tf, positive_windows, target_window_size, genome_window_size, nonnegative_regions, valid_chroms, test_chroms, result_filefolder, celltype):
     chroms, chroms_sizes, genome_bed = get_genome_bed(genome_sizes_file)
     train_chroms = chroms
     for chrom in valid_chroms + test_chroms:
@@ -242,9 +245,9 @@ def make_features_SingleTask(genome_sizes_file, tf, positive_windows, target_win
     np.random.shuffle(data_train)
 
     # ---------------------- write result ---------------------- #
-    write_result("data_train", data_train, result_filefolder, prefix = tf)
-    write_result("data_valid", data_valid, result_filefolder, prefix = tf)
-    write_result("data_test", data_test, result_filefolder, prefix = tf)
+    write_result("data_train", data_train, result_filefolder, prefix = tf, celltype = celltype)
+    write_result("data_valid", data_valid, result_filefolder, prefix = tf, celltype = celltype)
+    write_result("data_test", data_test, result_filefolder, prefix = tf, celltype = celltype)
 
 
 @click.command()
@@ -254,7 +257,10 @@ def main(data_cnf, model_cnf):
     yaml = YAML(typ='safe')
     data_cnf, model_cnf = yaml.load(Path(data_cnf)), yaml.load(Path(model_cnf))
 
+    # ---------------------- for specifc cell type extract from input dir---------------------- #
     input_dir = data_cnf['input_dir']
+    celltype = Path(input_dir).stem
+    # ---------------------- section ---------------------- #
     
     genome_window_size = model_cnf['padding']['DNA_len']
     target_window_size = data_cnf['target_window_size']
@@ -277,7 +283,7 @@ def main(data_cnf, model_cnf):
     tfs, positive_windows_list, nonnegative_regions_list = load_chip_multiTask(input_dir,genome_sizes_file, target_window_size, genome_window_size, genome_window_step, blacklist)
     
     for positive_windows, nonnegative_regions, tf in zip(positive_windows_list, nonnegative_regions_list, tfs):
-        make_features_SingleTask(genome_sizes_file, tf, positive_windows, target_window_size, genome_window_size, nonnegative_regions, valid_chroms, test_chroms, result_filefolder)
+        make_features_SingleTask(genome_sizes_file, tf, positive_windows, target_window_size, genome_window_size, nonnegative_regions, valid_chroms, test_chroms, result_filefolder, celltype)
 
 
 if __name__ == '__main__':

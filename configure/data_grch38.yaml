@@ -1,0 +1,27 @@
+tf_seq : data/tf_pseudosequences.txt
+
+train: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
+
+#valid: data/tf_chip/lazy/data_valid.txt.gz
+test: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+
+genome_fasta_file: ../TFNET-multi-tf/data/genome/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta
+
+mappability: ../TFNET-multi-tf/data/genome/grch38.k36.Umap.MultiTrackMappability.bw
+chromatin: ['../TFNET-multi-tf/data/atac/grch38/A549.bw','../TFNET-multi-tf/data/atac/grch38/GM12878.bw','../TFNET-multi-tf/data/atac/grch38/H1ESC.bw',
+            '../TFNET-multi-tf/data/atac/grch38/HEK293.bw','../TFNET-multi-tf/data/atac/grch38/HeLa-S3.bw','../TFNET-multi-tf/data/atac/grch38/HepG2.bw',
+            '../TFNET-multi-tf/data/atac/grch38/K562.bw','../TFNET-multi-tf/data/atac/grch38/MCF-7.bw','../TFNET-multi-tf/data/atac/grch38/SK-N-SH.bw']
+            #'../TFNET-multi-tf/data/atac/grch38/WTC11.bw']
+
+
+results: results
+
+#preprocess
+input_dir: data/tf_chip/grch38/K562/
+genome_window_step: 50
+target_window_size: 200
+valid_chroms: ['chr11']
+test_chroms: ['chr1', 'chr8', 'chr21']
+genome_sizes_file: data/tf_chip/grch38.autoX.chrom.sizes
+blacklist_file: data/tf_chip/filter.hg38-blacklist.v2.bed

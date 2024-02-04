@@ -41,14 +41,14 @@ def get_data_lazy(data_file, tf_name_seq, genome_fasta_file, DNA_N = True):
     with gzip.open(data_file, 'rt') as fp:
         for line in fp:
             # ---------------------- process multiple bigwig file ---------------------- #
-            chr, start, stop, bind_target, tf  = line.split('\t')
+            chr, start, stop, bind_target, tf, celltype  = line.split('\t')
             start = int(start)
             stop = int(stop)
             bind_target = int(bind_target)
             tf = tf.rstrip()
 
             # ---------------------- despite n ---------------------- #
-            data_list.append((chr, start, stop, bind_target, tf_name_seq[tf]))
+            data_list.append((chr, start, stop, bind_target, tf_name_seq[tf], celltype))
     logger.info(f'number of data_list: {len(data_list)}')
     return data_list
 
