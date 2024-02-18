@@ -139,7 +139,7 @@ def subset_chroms(chroms, bed):
 
 # ---------------------- make_features_multiTask ---------------------- #
 def write_result(filename, tfs_bind_data, result_filefolder, prefix, celltype):
-    with open(result_filefolder + prefix + '.' + filename +'.txt', 'w') as output_file:
+    with open(result_filefolder + celltype + '.' + prefix + '.' + filename +'.txt', 'w') as output_file:
         writer = csv.writer(output_file, delimiter="\t")
         for chr, start, stop, target_array, tf in tfs_bind_data:
             writer.writerow([chr, start, stop, target_array, tf, celltype])

@@ -64,7 +64,6 @@ ENCSR171CAY,hg19,ENCFF310AGG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000EFP,hg19,ENCFF706SJZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF384,K562
 ENCSR000EGR,hg19,ENCFF012VES,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFYA,K562
 ENCSR000BHA,hg19,ENCFF468MFY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCL11A,GM12878
-ENCSR000FAH,hg19,ENCFF002CWC,bed narrowPeak,optimal IDR thresholded peaks,,Lab,JUN,K562
 ENCSR000EVY,hg19,ENCFF591BIT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM28,K562
 ENCSR000EEA,hg19,ENCFF933GHY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX5,HepG2
 ENCSR854ORP,hg19,ENCFF512YNV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF350,HEK293
@@ -93,9 +92,7 @@ ENCSR000ECW,hg19,ENCFF002CTN,bed narrowPeak,optimal IDR thresholded peaks,,Lab,U
 ENCSR000DYI,hg19,ENCFF243NQJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPB,A549
 ENCSR000EEL,hg19,ENCFF584CNF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TBP,HepG2
 ENCSR557RVF,hg19,ENCFF195ODE,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,ZHX1,K562
-ENCSR000AKO,hg19,ENCFF002CEL,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,K562
 ENCSR000EGJ,hg19,ENCFF465JKF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MYC,K562
-ENCSR000BPJ,hg19,ENCFF085HTY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,K562
 ENCSR407BEZ,hg19,ENCFF974OIC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZHX2,HepG2
 ENCSR000DWH,hg19,ENCFF414FWV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,MCF-7
 ENCSR000BKP,hg19,ENCFF073PCP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,H1
@@ -128,7 +125,6 @@ ENCSR000BUA,hg19,ENCFF654KAP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000DPF,hg19,ENCFF944VAE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,A549
 ENCSR000BOT,hg19,ENCFF854KPC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,HepG2
 ENCSR000DJW,hg19,ENCFF030QEM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR4A1,K562
-ENCSR000DMO,hg19,ENCFF372SHI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,MCF-7
 ENCSR000EGP,hg19,ENCFF114IWY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF143,K562
 ENCSR000BRK,hg19,ENCFF209MQX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TEAD4,K562
 ENCSR000ECV,hg19,ENCFF002CSX,bed narrowPeak,optimal IDR thresholded peaks,,Lab,EP300,HeLa-S3
@@ -137,12 +133,10 @@ ENCSR000DZX,hg19,ENCFF303TVZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000DZU,hg19,ENCFF372DRC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF2,GM12878
 ENCSR000EWF,hg19,ENCFF557DSM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,K562
 ENCSR000ECO,hg19,ENCFF002CTP,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ZNF143,HeLa-S3
-ENCSR000DMM,hg19,ENCFF682AWN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MYC,MCF-7
 ENCSR000BNA,hg19,ENCFF557KGA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB33,HepG2
 ENCSR124BJR,hg19,ENCFF660VPM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETV6,K562
 ENCSR103SZL,hg19,ENCFF712NYW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TFAP4,HepG2
 ENCSR000EUY,hg19,ENCFF002CRP,bed narrowPeak,optimal IDR thresholded peaks,,Lab,TCF7L2,HEK293
-ENCSR837EYC,hg19,ENCFF144PPR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NRF1,K562
 ENCSR376WCJ,hg19,ENCFF384YDT,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,IRF2,K562
 ENCSR000DYV,hg19,ENCFF689AXJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFK,GM12878
 ENCSR000EFO,hg19,ENCFF517YCC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CUX1,K562
@@ -150,25 +144,20 @@ ENCSR626VUC,hg19,ENCFF760IFZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR523XCR,hg19,ENCFF355ARZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,RNF2,HepG2
 ENCSR638QHV,hg19,ENCFF502KHR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELF4,K562
 ENCSR974OFJ,hg19,ENCFF827ZLB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF5,GM12878
-ENCSR000BLP,hg19,ENCFF422NGZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAX,K562
 ENCSR000EIC,hg19,ENCFF861DPF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,SK-N-SH
 ENCSR331HPA,hg19,ENCFF116EXQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPA,GM12878
 ENCSR488EES,hg19,ENCFF297BXM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFE2L2,HepG2
-ENCSR000BRW,hg19,ENCFF858QMI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM28,K562
-ENCSR597VGC,hg19,ENCFF516AJC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETV6,GM12878
 ENCSR555PBN,hg19,ENCFF298VCE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFK,MCF-7
 ENCSR000EDH,hg19,ENCFF002CSP,bed narrowPeak,optimal IDR thresholded peaks,,Lab,JUND,HeLa-S3
 ENCSR000DNN,hg19,ENCFF414JLN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFYA,GM12878
 ENCSR000BMD,hg19,ENCFF564WEB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELF1,K562
 ENCSR000BSK,hg19,ENCFF598ZLV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,SK-N-SH
-ENCSR000DMR,hg19,ENCFF176YNV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,MCF-7
 ENCSR618ICR,hg19,ENCFF319HLW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RCOR1,A549
 ENCSR897MYK,hg19,ENCFF315VQM,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,SREBF1,A549
 ENCSR945NFL,hg19,ENCFF617AHB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF2,SK-N-SH
 ENCSR851BNE,hg19,ENCFF613RNG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MEIS2,K562
 ENCSR000EWX,hg19,ENCFF002CZL,bed narrowPeak,optimal IDR thresholded peaks,,Lab,E2F1,MCF-7
 ENCSR000EGI,hg19,ENCFF308IXJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFF,K562
-ENCSR408JQO,hg19,ENCFF341HWZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IRF3,GM12878
 ENCSR064LJN,hg19,ENCFF053TBK,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,RFX5,A549
 ENCSR000BRY,hg19,ENCFF002CJR,bed narrowPeak,optimal IDR thresholded peaks,,Lab,TEAD4,H1
 ENCSR000BJJ,hg19,ENCFF946MYA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,SK-N-SH
@@ -178,10 +167,7 @@ ENCSR302AWT,hg19,ENCFF248VHN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000DYS,hg19,ENCFF556PIY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,GM12878
 ENCSR000EIA,hg19,ENCFF265QRY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MXI1,SK-N-SH
 ENCSR000EEC,hg19,ENCFF684ASX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFF,HepG2
-ENCSR000EFT,hg19,ENCFF632NQI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATA1,K562
-ENCSR000DMQ,hg19,ENCFF695IQU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MYC,MCF-7
 ENCSR000ECB,hg19,ENCFF629MBV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TBP,H1
-ENCSR000EYV,hg19,ENCFF002COV,bed narrowPeak,optimal IDR thresholded peaks,,Lab,JUND,GM12878
 ENCSR000EBQ,hg19,ENCFF977MDK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BACH1,H1
 ENCSR948QLZ,hg19,ENCFF484DKT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CBX1,K562
 ENCSR000BGM,hg19,ENCFF684BLN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF1,HepG2
@@ -193,13 +179,10 @@ ENCSR928API,hg19,ENCFF507RHE,bed narrowPeak,optimal IDR thresholded peaks,"2, 3"
 ENCSR062HDL,hg19,ENCFF836HHL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HSF1,MCF-7
 ENCSR788RSW,hg19,ENCFF241TBP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SOX6,K562
 ENCSR000EHA,hg19,ENCFF380FJL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TBP,K562
-ENCSR000BMW,hg19,ENCFF558VPP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,K562
-ENCSR508DQA,hg19,ENCFF492GXZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXK2,K562
 ENCSR636YLV,hg19,ENCFF288UUU,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,MAZ,A549
 ENCSR907JPB,hg19,ENCFF597DIY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZMIZ1,K562
 ENCSR541WQI,hg19,ENCFF530ZTE,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,MAFK,A549
 ENCSR041AXL,hg19,ENCFF237UAN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX1,K562
-ENCSR138FUZ,hg19,ENCFF987VNY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RNF2,K562
 ENCSR695EQB,hg19,ENCFF340PPI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF24,K562
 ENCSR126YEB,hg19,ENCFF596OJV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA1,MCF-7
 ENCSR954WVZ,hg19,ENCFF044NEB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ESRRA,MCF-7
@@ -215,32 +198,24 @@ ENCSR486IFJ,hg19,ENCFF213EPU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000BIR,hg19,ENCFF317TBZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP1,H1
 ENCSR986CDX,hg19,ENCFF581YKY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NEUROD1,K562
 ENCSR000BHP,hg19,ENCFF395KPJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOSL2,HepG2
-ENCSR000DZN,hg19,ENCFF710VEH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,GM12878
 ENCSR000BLW,hg19,ENCFF547POU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,HepG2
 ENCSR887MXT,hg19,ENCFF708OJJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZHX1,HeLa-S3
 ENCSR000BGT,hg19,ENCFF593FBF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BATF,GM12878
 ENCSR000BNU,hg19,ENCFF475TQE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF3,K562
-ENCSR000BKU,hg19,ENCFF926FUM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,K562
 ENCSR000EGQ,hg19,ENCFF113PMT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFYB,K562
-ENCSR000BID,hg19,ENCFF028BDC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BHLHE40,HepG2
 ENCSR991ELG,hg19,ENCFF300XUA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP1,K562
 ENCSR000DOC,hg19,ENCFF002CVS,bed narrowPeak,optimal IDR thresholded peaks,,Lab,BRF2,K562
 ENCSR681NOM,hg19,ENCFF761MGJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPB,GM12878
 ENCSR000FCD,hg19,ENCFF178MOP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SMAD5,K562
 ENCSR623KNM,hg19,ENCFF282AEY,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,ELK1,A549
-ENCSR000EVF,hg19,ENCFF002CTJ,bed narrowPeak,optimal IDR thresholded peaks,,Lab,TCF7L2,HeLa-S3
 ENCSR000EGV,hg19,ENCFF179NDS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BHLHE40,K562
 ENCSR000ECC,hg19,ENCFF508IBP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NRF1,H1
 ENCSR000ECA,hg19,ENCFF402ELS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUN,H1
-ENCSR000BMO,hg19,ENCFF978IWS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA1,HepG2
-ENCSR494TDU,hg19,ENCFF992QZV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NRF1,K562
-ENCSR000DKV,hg19,ENCFF002DAJ,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,GM12878
 ENCSR000DZF,hg19,ENCFF083KVY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAX,GM12878
 ENCSR000EVG,hg19,ENCFF002CTQ,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ZNF274,HeLa-S3
 ENCSR000BGY,hg19,ENCFF391DVL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IRF4,GM12878
 ENCSR000EZE,hg19,ENCFF002CSB,bed narrowPeak,optimal IDR thresholded peaks,,Lab,FOS,HeLa-S3
 ENCSR000DZV,hg19,ENCFF014RBU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,STAT3,GM12878
-ENCSR000DML,hg19,ENCFF002DBL,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,MCF-7
 ENCSR000DKU,hg19,ENCFF002DAI,bed narrowPeak,optimal IDR thresholded peaks,,Lab,MYC,GM12878
 ENCSR176EXN,hg19,ENCFF314KRZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUN,MCF-7
 ENCSR000EUZ,hg19,ENCFF721FYE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM28,HEK293
@@ -253,32 +228,24 @@ ENCSR000EGN,hg19,ENCFF337DKJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000ECI,hg19,ENCFF002CSJ,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ELK1,HeLa-S3
 ENCSR000DLS,hg19,ENCFF002DAX,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,HepG2
 ENCSR000EDZ,hg19,ENCFF800XTT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFK,HepG2
-ENCSR000DMV,hg19,ENCFF002DBM,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,MCF-7
 ENCSR000BJD,hg19,ENCFF461FGJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RXRA,GM12878
 ENCSR000EWE,hg19,ENCFF836LBG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF274,K562
 ENCSR000EWH,hg19,ENCFF594LCH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2C2,K562
 ENCSR000EVJ,hg19,ENCFF002CSG,bed narrowPeak,optimal IDR thresholded peaks,,Lab,E2F1,HeLa-S3
 ENCSR000BND,hg19,ENCFF997NGJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZEB1,GM12878
-ENCSR000BJL,hg19,ENCFF153JLK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,HepG2
 ENCSR000BJK,hg19,ENCFF065EPE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPA,HepG2
 ENCSR000DZB,hg19,ENCFF556JBS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELK1,GM12878
 ENCSR000BKA,hg19,ENCFF332PGQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETS1,GM12878
-ENCSR000BMH,hg19,ENCFF328XKC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,K562
 ENCSR000EEH,hg19,ENCFF972NIR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NRF1,HepG2
 ENCSR000ECM,hg19,ENCFF002CSF,bed narrowPeak,optimal IDR thresholded peaks,,Lab,RCOR1,HeLa-S3
 ENCSR000BHK,hg19,ENCFF002CHV,bed narrowPeak,optimal IDR thresholded peaks,,Lab,SP1,GM12878
-ENCSR000EBZ,hg19,ENCFF760AQQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,H1
-ENCSR000BOZ,hg19,ENCFF781PAL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,SK-N-SH
 ENCSR000BNQ,hg19,ENCFF625SHY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCL3,GM12878
 ENCSR000BIW,hg19,ENCFF894MNP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPA,H1
-ENCSR000BKH,hg19,ENCFF203EDM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCLAF1,K562
 ENCSR000EWV,hg19,ENCFF002CZJ,bed narrowPeak,optimal IDR thresholded peaks,,Lab,GATA3,MCF-7
 ENCSR000BNJ,hg19,ENCFF140ARE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HNF4G,HepG2
 ENCSR000ECN,hg19,ENCFF002CSR,bed narrowPeak,optimal IDR thresholded peaks,,Lab,MAX,HeLa-S3
-ENCSR000EFW,hg19,ENCFF938IOJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,UBTF,K562
 ENCSR000BMI,hg19,ENCFF030NYG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SRF,GM12878
 ENCSR000EGE,hg19,ENCFF549TYR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,K562
-ENCSR000DZQ,hg19,ENCFF868VSY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EBF1,GM12878
 ENCSR000EVS,hg19,ENCFF002CUY,bed narrowPeak,optimal IDR thresholded peaks,,Lab,NR2C2,HepG2
 ENCSR000BQL,hg19,ENCFF409QJU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFATC1,GM12878
 ENCSR000BJW,hg19,ENCFF369JAI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RXRA,H1
@@ -289,14 +256,11 @@ ENCSR000BKD,hg19,ENCFF686VJY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR519QAA,hg19,ENCFF099BZU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HNRNPK,HepG2
 ENCSR000BJZ,hg19,ENCFF563QBC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCLAF1,GM12878
 ENCSR000BKC,hg19,ENCFF305HBV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF3,H1
-ENCSR000FAG,hg19,ENCFF002CWI,bed narrowPeak,optimal IDR thresholded peaks,,Lab,MYC,K562
 ENCSR000DZJ,hg19,ENCFF853SOB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BHLHE40,GM12878
 ENCSR000DOD,hg19,ENCFF002CYL,bed narrowPeak,optimal IDR thresholded peaks,,Lab,GTF3C2,K562
 ENCSR000BNT,hg19,ENCFF420KEV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,HepG2
 ENCSR352BJL,hg19,ENCFF921WMN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF318,K562
-ENCSR000DLN,hg19,ENCFF002DAT,bed narrowPeak,optimal IDR thresholded peaks,,Lab,MYC,HeLa-S3
 ENCSR000BQZ,hg19,ENCFF492YMU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,STAT5A,GM12878
-ENCSR000EVX,hg19,ENCFF344QKL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF274,K562
 ENCSR000DYQ,hg19,ENCFF195PBG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ESRRA,GM12878
 ENCSR000EHY,hg19,ENCFF849EEH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX5,SK-N-SH
 ENCSR000ECF,hg19,ENCFF447QXT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX5,H1
@@ -309,54 +273,39 @@ ENCSR000EGX,hg19,ENCFF812QPN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000BRN,hg19,ENCFF628QJU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFIC,GM12878
 ENCSR000BJE,hg19,ENCFF606WUV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SIX5,GM12878
 ENCSR000EBW,hg19,ENCFF964BYN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF143,H1
-ENCSR091GVJ,hg19,ENCFF232KAH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF1,K562
-ENCSR000DNA,hg19,ENCFF300IYQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,A549
 ENCSR000DNT,hg19,ENCFF002CTR,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ZZZ3,HeLa-S3
 ENCSR000BNV,hg19,ENCFF577UJR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MEF2A,K562
 ENCSR000BMZ,hg19,ENCFF747CHL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELF1,HepG2
-ENCSR000AHD,hg19,ENCFF586KIH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,MCF-7
-ENCSR000EWS,hg19,ENCFF002CZK,bed narrowPeak,optimal IDR thresholded peaks,,Lab,GATA3,MCF-7
-ENCSR000BGK,hg19,ENCFF721HUX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,HepG2
 ENCSR675LRO,hg19,ENCFF197OGH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MLLT1,K562
 ENCSR953DVM,hg19,ENCFF925DJG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E2F8,K562
 ENCSR869IUD,hg19,ENCFF968KBN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF2,K562
-ENCSR000EVM,hg19,ENCFF002CSM,bed narrowPeak,optimal IDR thresholded peaks,,Lab,E2F1,HeLa-S3
 ENCSR000EDJ,hg19,ENCFF002CSW,bed narrowPeak,optimal IDR thresholded peaks,,Lab,NRF1,HeLa-S3
 ENCSR000EUJ,hg19,ENCFF073XZC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,GM12878
 ENCSR000BNS,hg19,ENCFF418RZE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOSL1,H1
-ENCSR385AHH,hg19,ENCFF238MYM,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF24,K562
 ENCSR000EGO,hg19,ENCFF716LRI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX5,K562
 ENCSR000EWN,hg19,ENCFF891MVM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF263,K562
 ENCSR000BMT,hg19,ENCFF379EPK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NANOG,H1
-ENCSR000DRZ,hg19,ENCFF473RXY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,GM12878
-ENCSR588AKU,hg19,ENCFF422BXE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RUNX1,K562
 ENCSR590CNM,hg19,ENCFF210DMP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATA4,HepG2
 ENCSR395HWC,hg19,ENCFF968JVX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,K562
-ENCSR107GRP,hg19,ENCFF440JJW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MLLT1,K562
 ENCSR101FJU,hg19,ENCFF324TBP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF384,HepG2
 ENCSR336DXE,hg19,ENCFF481WGW,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,SKIL,K562
 ENCSR445ACU,hg19,ENCFF132BFM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SOX13,HepG2
 ENCSR000DNM,hg19,ENCFF467NRS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFYB,GM12878
 ENCSR863KUB,hg19,ENCFF249EZR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF7,K562
 ENCSR000EWT,hg19,ENCFF002CZM,bed narrowPeak,optimal IDR thresholded peaks,,Lab,TCF7L2,MCF-7
-ENCSR000BNW,hg19,ENCFF033EBX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SIX5,K562
 ENCSR107RHZ,hg19,ENCFF706LIT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YBX1,K562
-ENCSR000BGF,hg19,ENCFF048JKT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,GM12878
 ENCSR000DZC,hg19,ENCFF898MUV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RCOR1,GM12878
 ENCSR000EWU,hg19,ENCFF002CZN,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ZNF217,MCF-7
 ENCSR988ZSI,hg19,ENCFF763VWE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RERE,HepG2
 ENCSR668HOP,hg19,ENCFF563QQH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF580,HEK293
 ENCSR021DJC,hg19,ENCFF159IBP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCL11A,HEK293
-ENCSR000DOG,hg19,ENCFF002CVN,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ATF3,K562
 ENCSR656JZL,hg19,ENCFF930DKI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HHEX,HepG2
 ENCSR000BIU,hg19,ENCFF358BEF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF1,H1
 ENCSR502KPJ,hg19,ENCFF290NCZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF843,HEK293
 ENCSR072LQF,hg19,ENCFF796MFI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF76,HEK293
 ENCSR331ORD,hg19,ENCFF874EVS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CREB1,HepG2
-ENCSR000EEB,hg19,ENCFF718CQQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFK,HepG2
 ENCSR000BIT,hg19,ENCFF274AQE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF12,H1
 ENCSR617IFZ,hg19,ENCFF728WNY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,HEK293
-ENCSR820GND,hg19,ENCFF539WLH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RNF2,K562
 ENCSR000EVQ,hg19,ENCFF002CUX,bed narrowPeak,optimal IDR thresholded peaks,,Lab,TCF7L2,HepG2
 ENCSR892ZTO,hg19,ENCFF120RXH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF548,HEK293
 ENCSR818DQV,hg19,ENCFF927JBT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAFG,K562
@@ -364,7 +313,6 @@ ENCSR000EGD,hg19,ENCFF423EMU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR138YYY,hg19,ENCFF517KRT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPB1,K562
 ENCSR000EFU,hg19,ENCFF019PEL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELK1,K562
 ENCSR811JJM,hg19,ENCFF111DCR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF19,HEK293
-ENCSR000EIB,hg19,ENCFF673PTK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,JUND,SK-N-SH
 ENCSR000DZL,hg19,ENCFF141SAU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF143,GM12878
 ENCSR093FKD,hg19,ENCFF665FHC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CREB3,K562
 ENCSR277DMR,hg19,ENCFF404YMX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETV1,K562
@@ -373,7 +321,6 @@ ENCSR115SMW,hg19,ENCFF544XKC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000BNN,hg19,ENCFF641LJY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,THAP1,K562
 ENCSR854IPI,hg19,ENCFF053UVX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF707,HEK293
 ENCSR117CHD,hg19,ENCFF181UHL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HOMEZ,HepG2
-ENCSR000DWE,hg19,ENCFF002DDJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",Lab,CTCF,K562
 ENCSR000DUB,hg19,ENCFF830KSV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,HeLa-S3
 ENCSR613NUC,hg19,ENCFF471ZTZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ARNT,K562
 ENCSR578CXC,hg19,ENCFF228XGU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF644,HepG2
@@ -386,14 +333,11 @@ ENCSR443MVV,hg19,ENCFF943HTN,bed narrowPeak,optimal IDR thresholded peaks,"2, 3"
 ENCSR051OUX,hg19,ENCFF723RSX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFATC3,K562
 ENCSR768LIO,hg19,ENCFF171TPH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,OVOL3,HEK293
 ENCSR543KOA,hg19,ENCFF732OWQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB12,HEK293
-ENCSR099NCH,hg19,ENCFF973LDQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF24,K562
 ENCSR217HTK,hg19,ENCFF467FLP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF2,HEK293
 ENCSR135ANT,hg19,ENCFF651PWG,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,NRF1,MCF-7
 ENCSR970NKQ,hg19,ENCFF175IIE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F1,K562
-ENCSR563LLO,hg19,ENCFF998YJY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E2F1,K562
 ENCSR231YFE,hg19,ENCFF447FPV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB33,MCF-7
 ENCSR318LVG,hg19,ENCFF397XTF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB40,MCF-7
-ENCSR000DKA,hg19,ENCFF929YBC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATA2,K562
 ENCSR907MZR,hg19,ENCFF646VQW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM24,K562
 ENCSR382WLL,hg19,ENCFF267FXT,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,ELK1,MCF-7
 ENCSR714YZG,hg19,ENCFF076NCP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETV4,HepG2
@@ -407,7 +351,6 @@ ENCSR701RXW,hg19,ENCFF706XII,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR711UOA,hg19,ENCFF714VJU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF837,HEK293
 ENCSR679STZ,hg19,ENCFF026FRV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF792,HEK293
 ENCSR261EDU,hg19,ENCFF453CYS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,HepG2
-ENCSR979QYJ,hg19,ENCFF973OME,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,K562
 ENCSR501DKS,hg19,ENCFF305ICK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF7,GM12878
 ENCSR077DKV,hg19,ENCFF948TXN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CREM,K562
 ENCSR017CEO,hg19,ENCFF572YVL,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,CUX1,MCF-7
@@ -444,18 +387,14 @@ ENCSR162IEM,hg19,ENCFF877ANE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR876UYH,hg19,ENCFF235RIU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZHX2,MCF-7
 ENCSR205SKQ,hg19,ENCFF344OJI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YBX1,GM12878
 ENCSR611WZO,hg19,ENCFF365ICU,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,SREBF2,HeLa-S3
-ENCSR065XVO,hg19,ENCFF859FVX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CHAMP1,K562
 ENCSR744WOO,hg19,ENCFF493TZM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF12,K562
 ENCSR888XZK,hg19,ENCFF312RFN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF7L2,K562
 ENCSR563FBT,hg19,ENCFF754GUT,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,USF2,A549
-ENCSR416QLJ,hg19,ENCFF828JWK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPB,K562
 ENCSR731LHZ,hg19,ENCFF083YCQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E4F1,K562
-ENCSR835XKS,hg19,ENCFF899JBI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM22,GM12878
 ENCSR525YFS,hg19,ENCFF598VEK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB40,HepG2
 ENCSR047BUZ,hg19,ENCFF502ZTC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF2,HepG2
 ENCSR437GBJ,hg19,ENCFF704ZYN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFATC3,GM12878
 ENCSR444LIN,hg19,ENCFF147MAN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF7,HepG2
-ENCSR130PDE,hg19,ENCFF859NPS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR4A1,K562
 ENCSR314BBS,hg19,ENCFF332DRG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PTTG1,K562
 ENCSR926KTP,hg19,ENCFF196DHR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IRF9,K562
 ENCSR721QZV,hg19,ENCFF163MWF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN18,HEK293
@@ -482,7 +421,6 @@ ENCSR445PDR,hg19,ENCFF750YHY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR608HVP,hg19,ENCFF802XZN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF13,K562
 ENCSR518WPL,hg19,ENCFF311LEU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F6,HepG2
 ENCSR076STQ,hg19,ENCFF670RSG,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZBTB44,HEK293
-ENCSR269TNX,hg19,ENCFF450SOG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPA,HepG2
 ENCSR854MCV,hg19,ENCFF388AJH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IRF1,K562
 ENCSR494PWZ,hg19,ENCFF809OEX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZC3H8,K562
 ENCSR798EGJ,hg19,ENCFF626AQW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RNF2,A549
@@ -492,7 +430,6 @@ ENCSR210MET,hg19,ENCFF187XKX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR464KFG,hg19,ENCFF027VBY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF140,HEK293
 ENCSR803GYT,hg19,ENCFF065VOT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HIC1,HEK293
 ENCSR177VFS,hg19,ENCFF911BYP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,"BORCS8-MEF2B,MEF2B",GM12878
-ENCSR874AFU,hg19,ENCFF229YSW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,GM12878
 ENCSR819LHG,hg19,ENCFF809YFY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA1,K562
 ENCSR689YFA,hg19,ENCFF290YYY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF146,HEK293
 ENCSR167KBO,hg19,ENCFF788EBS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF316,K562
@@ -511,18 +448,15 @@ ENCSR321MSF,hg19,ENCFF416GRM,bed narrowPeak,optimal IDR thresholded peaks,"4, 5"
 ENCSR736ZKL,hg19,ENCFF901JRM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF148,HEK293
 ENCSR826YMT,hg19,ENCFF281OPX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SMAD4,HepG2
 ENCSR092OVN,hg19,ENCFF984AJU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA3,HepG2
-ENCSR143CEO,hg19,ENCFF211XFR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZC3H8,K562
 ENCSR085DDI,hg19,ENCFF986MHU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFXL1,K562
 ENCSR780BBJ,hg19,ENCFF588OLK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZZZ3,K562
 ENCSR882ZTS,hg19,ENCFF168HHB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB11,HEK293
-ENCSR936XTK,hg19,ENCFF544NXC,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF143,GM12878
 ENCSR553QMC,hg19,ENCFF448CFQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF7,HepG2
 ENCSR633OVO,hg19,ENCFF552URL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX3,HepG2
 ENCSR210HBN,hg19,ENCFF716MKU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF5,HepG2
 ENCSR569ARC,hg19,ENCFF208YTG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFYC,HepG2
 ENCSR791AGT,hg19,ENCFF539NTA,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF24,HepG2
 ENCSR924GXX,hg19,ENCFF462FRU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PHB2,K562
-ENCSR260UJI,hg19,ENCFF801SSE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MBD1,HepG2
 ENCSR631WAA,hg19,ENCFF047LUI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB17,HEK293
 ENCSR547TGL,hg19,ENCFF426RRZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF701,HEK293
 ENCSR402JAC,hg19,ENCFF603ZTG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF574,MCF-7
@@ -536,11 +470,9 @@ ENCSR977HTH,hg19,ENCFF820HLI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR447ZTA,hg19,ENCFF850TPX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF558,HEK293
 ENCSR365GRX,hg19,ENCFF298TDL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZFP37,HEK293
 ENCSR875PEI,hg19,ENCFF757QEJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,TRIM22,MCF-7
-ENCSR267DFA,hg19,ENCFF675TLS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA1,HepG2
 ENCSR807LQP,hg19,ENCFF905HYT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP2,HEK293
 ENCSR028EGI,hg19,ENCFF943LDC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF26,HEK293
 ENCSR253CKN,hg19,ENCFF441VSN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN21,HEK293
-ENCSR189TRZ,hg19,ENCFF242IWJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF12,K562
 ENCSR279IEM,hg19,ENCFF278ODX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SIX4,MCF-7
 ENCSR739IHN,hg19,ENCFF405NFV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TBX21,GM12878
 ENCSR324LTM,hg19,ENCFF043BDV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,OSR2,HEK293
@@ -549,7 +481,6 @@ ENCSR906PCS,hg19,ENCFF068QHA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR159GFL,hg19,ENCFF415VBF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF518A,HEK293
 ENCSR076KZW,hg19,ENCFF856LJI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF280C,HEK293
 ENCSR775HFF,hg19,ENCFF839UTQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF791,HEK293
-ENCSR200JYP,hg19,ENCFF442ZUF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF316,K562
 ENCSR427BBI,hg19,ENCFF686LJE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MLLT1,MCF-7
 ENCSR714LZQ,hg19,ENCFF497IKJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF664,HEK293
 ENCSR896UBV,hg19,ENCFF201ZGY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,HEK293
@@ -558,7 +489,6 @@ ENCSR397DQC,hg19,ENCFF195GMS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR145TSJ,hg19,ENCFF710IEF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF4,K562
 ENCSR770PQN,hg19,ENCFF292GRY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCL11B,HEK293
 ENCSR102KIN,hg19,ENCFF511QHY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZMYM3,K562
-ENCSR474CVP,hg19,ENCFF164HLQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,TRIM28,K562
 ENCSR011CKE,hg19,ENCFF296EBH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF2,HEK293
 ENCSR604CNJ,hg19,ENCFF300CSG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF416,HEK293
 ENCSR788XNX,hg19,ENCFF015PGM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX1,MCF-7
@@ -570,10 +500,8 @@ ENCSR848YWD,hg19,ENCFF177FZU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR295BIP,hg19,ENCFF058JCF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF777,HEK293
 ENCSR093HXE,hg19,ENCFF824SRC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF16,HEK293
 ENCSR178QVJ,hg19,ENCFF265HWY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF274,HEK293
-ENCSR853ADA,hg19,ENCFF003GNY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NRF1,HepG2
 ENCSR482BBZ,hg19,ENCFF611XTK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GLIS1,HEK293
 ENCSR307CKC,hg19,ENCFF535VSU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF680,HEK293
-ENCSR742IDN,hg19,ENCFF664ZGR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2C1,K562
 ENCSR481FEC,hg19,ENCFF231DQM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB8A,HEK293
 ENCSR189YYK,hg19,ENCFF357WYN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB40,GM12878
 ENCSR892QHR,hg19,ENCFF292QIG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PRDM6,HEK293
@@ -581,8 +509,6 @@ ENCSR793HVL,hg19,ENCFF063WXY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR298QUH,hg19,ENCFF648HOQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MZF1,HEK293
 ENCSR903ELW,hg19,ENCFF693JHE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CREM,HepG2
 ENCSR757EKM,hg19,ENCFF175VJE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF6,HepG2
-ENCSR632DCH,hg19,ENCFF228PSB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF3,K562
-ENCSR028NUR,hg19,ENCFF615FIR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF592,MCF-7
 ENCSR591CCL,hg19,ENCFF447QUG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF512,K562
 ENCSR799GOY,hg19,ENCFF920LEU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YBX1,HepG2
 ENCSR194BBY,hg19,ENCFF446PZF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF221,HEK293
@@ -590,7 +516,6 @@ ENCSR764YDL,hg19,ENCFF954NAJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR979FQP,hg19,ENCFF265NSP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATAD2B,MCF-7
 ENCSR343ELW,hg19,ENCFF659WAF,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,LEF1,K562
 ENCSR011XCI,hg19,ENCFF787RHQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF585B,HEK293
-ENCSR957LDM,hg19,ENCFF049CRW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM24,K562
 ENCSR173CTF,hg19,ENCFF516QUQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF580,HepG2
 ENCSR665KYH,hg19,ENCFF073XKN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF521,HEK293
 ENCSR966PJY,hg19,ENCFF525IST,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MIXL1,HepG2
@@ -602,21 +527,16 @@ ENCSR828NCB,hg19,ENCFF456YII,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR560SEP,hg19,ENCFF017BKY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RXRB,HepG2
 ENCSR098YLE,hg19,ENCFF768SBV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PRDM1,HEK293
 ENCSR745VSQ,hg19,ENCFF998RMR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GMEB2,HepG2
-ENCSR066TET,hg19,ENCFF150TBK,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,RFX1,MCF-7
 ENCSR091JXL,hg19,ENCFF676NPW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HES1,K562
 ENCSR635EXI,hg19,ENCFF303PMJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 3",ENCODE3,ZSCAN29,K562
 ENCSR449UFF,hg19,ENCFF353QLW,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,ZKSCAN1,MCF-7
 ENCSR029IBC,hg19,ENCFF808WQI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ARNT,HepG2
-ENCSR175SZH,hg19,ENCFF253NXR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN29,K562
 ENCSR778UBR,hg19,ENCFF027VZK,bed narrowPeak,optimal IDR thresholded peaks,"5, 6",ENCODE3,ARID3A,GM12878
-ENCSR912ATU,hg19,ENCFF178LCE,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF217,MCF-7
 ENCSR415AEB,hg19,ENCFF302MOY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF48,HepG2
 ENCSR263DFP,hg19,ENCFF168HAG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PBX2,K562
-ENCSR159OCC,hg19,ENCFF030HWZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF1,K562
 ENCSR468IJT,hg19,ENCFF119WLE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP7,HEK293
 ENCSR909HMT,hg19,ENCFF677ZDS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZEB1,HEK293
 ENCSR451CYX,hg19,ENCFF629SHB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF280D,HEK293
-ENCSR961PPA,hg19,ENCFF127GYQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF2,GM12878
 ENCSR497JLX,hg19,ENCFF364KSB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TEAD1,HepG2
 ENCSR669GUM,hg19,ENCFF444SHN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF404,HEK293
 ENCSR224QDY,hg19,ENCFF875JQT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF121,HEK293
@@ -624,27 +544,20 @@ ENCSR551KAP,hg19,ENCFF254EAY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR996FYT,hg19,ENCFF954HYI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF202,HEK293
 ENCSR938ETG,hg19,ENCFF368VEQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF9,HepG2
 ENCSR604UJV,hg19,ENCFF239IZV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IRF2,HepG2
-ENCSR608XTF,hg19,ENCFF644WLI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RNF2,K562
 ENCSR412ZDC,hg19,ENCFF763XLN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,AHR,HepG2
 ENCSR950ACO,hg19,ENCFF622OQC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF785,HEK293
 ENCSR460XGV,hg19,ENCFF027CYL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,MCF-7
 ENCSR389PWB,hg19,ENCFF394IKH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB5,K562
 ENCSR171FUX,hg19,ENCFF144FQA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXK2,HepG2
 ENCSR781EQJ,hg19,ENCFF921HJY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB48,HEK293
-ENCSR389BLX,hg19,ENCFF231VAA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATAD2B,MCF-7
 ENCSR707QWA,hg19,ENCFF712AXK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F6,K562
-ENCSR798IJO,hg19,ENCFF615JCW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F6,HepG2
-ENCSR502OEK,hg19,ENCFF392MUM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELF1,K562
-ENCSR155KHM,hg19,ENCFF507MGL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ARNT,K562
 ENCSR396SOH,hg19,ENCFF937PFR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF792,HepG2
 ENCSR966YYJ,hg19,ENCFF353CQJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,"COMMD3-BMI1,BMI1",MCF-7
 ENCSR465VLK,hg19,ENCFF671BJT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXK2,MCF-7
 ENCSR125DNC,hg19,ENCFF026PKV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF394,HEK293
 ENCSR751PNN,hg19,ENCFF057VRL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF112,HEK293
 ENCSR264CZJ,hg19,ENCFF671BFH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,THRA,K562
-ENCSR497VFH,hg19,ENCFF284PKK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF639,K562
 ENCSR596FEL,hg19,ENCFF105IPJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RBPJ,HepG2
-ENCSR334HSW,hg19,ENCFF698MLW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF318,K562
 ENCSR506HXN,hg19,ENCFF623ALA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM22,HepG2
 ENCSR038XIA,hg19,ENCFF563AEQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF444,MCF-7
 ENCSR702BYX,hg19,ENCFF817RST,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFIB,MCF-7
@@ -655,17 +568,14 @@ ENCSR274LVQ,hg19,ENCFF338OGQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR212YKD,hg19,ENCFF142EVF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SKIL,GM12878
 ENCSR897ZXU,hg19,ENCFF751DRF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E2F8,MCF-7
 ENCSR552XSN,hg19,ENCFF881VZH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MLLT1,GM12878
-ENCSR546IHU,hg19,ENCFF556YCY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF184,K562
 ENCSR729LGA,hg19,ENCFF193MKL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP1,MCF-7
 ENCSR439WAF,hg19,ENCFF711OSR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E4F1,GM12878
-ENCSR334KIQ,hg19,ENCFF573ALP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP1,HepG2
 ENCSR647ZXA,hg19,ENCFF257RYT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MEF2D,K562
 ENCSR357QJR,hg19,ENCFF483STV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN5A,HEK293
 ENCSR924GRG,hg19,ENCFF843TJJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB49,HEK293
 ENCSR121PFY,hg19,ENCFF643TEZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CDC5L,K562
 ENCSR278JQG,hg19,ENCFF880SXP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,HepG2
 ENCSR439OCL,hg19,ENCFF932UEC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF407,K562
-ENCSR337NQP,hg19,ENCFF193FZK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ESRRA,MCF-7
 ENCSR768VNZ,hg19,ENCFF019SJB,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZSCAN30,HEK293
 ENCSR283DOU,hg19,ENCFF959WAA,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF660,HEK293
 ENCSR185FOY,hg19,ENCFF901JLS,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF341,HEK293
@@ -678,29 +588,20 @@ ENCSR925QAW,hg19,ENCFF010AHT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR662EOU,hg19,ENCFF622VPB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F1,HepG2
 ENCSR072GJV,hg19,ENCFF298ZJA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HMG20A,HepG2
 ENCSR841YWU,hg19,ENCFF795QZU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,E4F1,MCF-7
-ENCSR423RTK,hg19,ENCFF313TUJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GATA3,MCF-7
-ENCSR948VFL,hg19,ENCFF886VSU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,K562
 ENCSR993LMB,hg19,ENCFF037KBA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TGIF2,HepG2
 ENCSR711XNY,hg19,ENCFF020GMZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PKNOX1,GM12878
 ENCSR555DCF,hg19,ENCFF922QEI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF512B,MCF-7
-ENCSR465XQW,hg19,ENCFF567MGV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF217,MCF-7
 ENCSR170DNV,hg19,ENCFF449ITJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PHB2,HepG2
 ENCSR497IAS,hg19,ENCFF667AEK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF747,HEK293
-ENCSR792IYC,hg19,ENCFF398TWC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCLAF1,K562
 ENCSR185QFX,hg19,ENCFF663VDP,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF549,HEK293
-ENCSR620DUQ,hg19,ENCFF445LQN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CREB1,MCF-7
 ENCSR822CCM,hg19,ENCFF225MPC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ARID1B,K562
 ENCSR639IIZ,hg19,ENCFF215BXZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPG,HepG2
-ENCSR987MTA,hg19,ENCFF095GMM,bed narrowPeak,optimal IDR thresholded peaks,"4, 5",ENCODE3,BHLHE40,GM12878
 ENCSR636MKU,hg19,ENCFF012JXJ,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,BACH1,GM12878
 ENCSR619OUC,hg19,ENCFF753PSY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB6,HEK293
 ENCSR532EMP,hg19,ENCFF545RHH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF740,K562
 ENCSR344SBD,hg19,ENCFF538OEZ,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF596,HEK293
-ENCSR211LTF,hg19,ENCFF004WYV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EGR1,K562
 ENCSR141PZA,hg19,ENCFF732SYV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP3,HEK293
 ENCSR238QRG,hg19,ENCFF574YMJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TBX3,HepG2
-ENCSR605YWG,hg19,ENCFF807BXT,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,TBX3,HepG2
-ENCSR934JDG,hg19,ENCFF359WMP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CLOCK,MCF-7
 ENCSR710WLO,hg19,ENCFF670ZCR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MGA,K562
 ENCSR765MKZ,hg19,ENCFF482JUM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,DRAP1,HepG2
 ENCSR859RAO,hg19,ENCFF443TBN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,HEK293
@@ -722,7 +623,6 @@ ENCSR004PLU,hg19,ENCFF675RNJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR691TXI,hg19,ENCFF387YMM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF610,HEK293
 ENCSR211GNP,hg19,ENCFF134HPR,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN4,HEK293
 ENCSR676ZEF,hg19,ENCFF612GGC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF398,HEK293
-ENCSR730TBC,hg19,ENCFF763GJP,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,HepG2
 ENCSR784VUY,hg19,ENCFF193YAN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RNF2,H1
 ENCSR501NSC,hg19,ENCFF957YKG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN26,HEK293
 ENCSR567XAM,hg19,ENCFF641HNH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF473,HEK293
@@ -739,12 +639,8 @@ ENCSR704IGU,hg19,ENCFF061HCE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR772EEN,hg19,ENCFF580QGA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RELA,K562
 ENCSR648INT,hg19,ENCFF176NOI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ILK,K562
 ENCSR562POI,hg19,ENCFF072OVJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,THAP11,HepG2
-ENCSR325DER,hg19,ENCFF784FIE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR3C1,K562
 ENCSR502GAX,hg19,ENCFF115RUG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF652,HepG2
-ENCSR582ZOA,hg19,ENCFF879VLB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFIB,MCF-7
-ENCSR117WTM,hg19,ENCFF545DAF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF24,K562
 ENCSR808FFI,hg19,ENCFF154KGC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZKSCAN8,HepG2
-ENCSR669NFS,hg19,ENCFF944GZI,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,ARNT,K562
 ENCSR961WLZ,hg19,ENCFF095KWQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SOX5,HepG2
 ENCSR550HCT,hg19,ENCFF717TWA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF1,K562
 ENCSR858FAN,hg19,ENCFF173WPK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF621,HEK293
@@ -753,19 +649,16 @@ ENCSR827NWO,hg19,ENCFF070GBJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR661AXW,hg19,ENCFF520EUT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF169,HEK293
 ENCSR635NOQ,hg19,ENCFF057UHI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF8,HEK293
 ENCSR731AGO,hg19,ENCFF461SHI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN5C,HEK293
-ENCSR041XML,hg19,ENCFF909FRA,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SRF,GM12878
 ENCSR538RDA,hg19,ENCFF327OLE,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF560,HEK293
 ENCSR800QIT,hg19,ENCFF227PWE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,HNF1A,HepG2
 ENCSR705ASR,hg19,ENCFF491HFW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN23,HEK293
 ENCSR589SNT,hg19,ENCFF765HCW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TFE3,HepG2
 ENCSR928KOR,hg19,ENCFF126BCK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GMEB1,K562
-ENCSR633EIC,hg19,ENCFF269EMM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PBX2,K562
 ENCSR363XBR,hg19,ENCFF010JWV,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF488,HEK293
 ENCSR006GAQ,hg19,ENCFF724KWC,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,KLF10,HEK293
 ENCSR707BNG,hg19,ENCFF045LTC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MYNN,HEK293
 ENCSR596IKD,hg19,ENCFF772HOY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETS2,K562
 ENCSR559IOZ,hg19,ENCFF030UCM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZXDB,HEK293
-ENCSR390VGH,hg19,ENCFF059ONJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,K562
 ENCSR759BDG,hg19,ENCFF396GKZ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCL6,HepG2
 ENCSR230PTV,hg19,ENCFF561USY,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB2,K562
 ENCSR769JRS,hg19,ENCFF942VHF,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,AEBP2,HEK293
@@ -778,7 +671,6 @@ ENCSR290SSQ,hg19,ENCFF834ZRT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR899BKM,hg19,ENCFF955YVT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF687,MCF-7
 ENCSR466VYP,hg19,ENCFF044IYC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF266,HEK293
 ENCSR167XFW,hg19,ENCFF333PHT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF544,HEK293
-ENCSR618HNF,hg19,ENCFF034GYQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM28,HEK293
 ENCSR635GTR,hg19,ENCFF619BDC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TEAD2,K562
 ENCSR860UHK,hg19,ENCFF788LSH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CBFB,GM12878
 ENCSR233MWH,hg19,ENCFF981API,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF670,HEK293
@@ -789,36 +681,20 @@ ENCSR173ZVL,hg19,ENCFF566YUW,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR664AOA,hg19,ENCFF682WUJ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM25,K562
 ENCSR258SXK,hg19,ENCFF922FRH,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SFPQ,HepG2
 ENCSR502NRF,hg19,ENCFF386TTQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ELF1,MCF-7
-ENCSR680UQE,hg19,ENCFF339FFC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF2,GM12878
-ENCSR725VFL,hg19,ENCFF017LZE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF12,GM12878
-ENCSR715UCI,hg19,ENCFF344NKG,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SOX13,HepG2
 ENCSR096IIB,hg19,ENCFF864YJE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETV5,HepG2
 ENCSR412YGM,hg19,ENCFF455HXN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN29,GM12878
-ENCSR028UIU,hg19,ENCFF958KNK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ATF3,K562
 ENCSR343IFJ,hg19,ENCFF874QUM,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CC2D1A,K562
-ENCSR786OQY,hg19,ENCFF359QCN,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB5,K562
-ENCSR342THD,hg19,ENCFF015YHT,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,BCLAF1,GM12878
-ENCSR441VHN,hg19,ENCFF809OOE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,IKZF1,GM12878
-ENCSR761LRR,hg19,ENCFF346OZB,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF512B,MCF-7
-ENCSR670FDA,hg19,ENCFF184RRU,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFATC3,K562
-ENCSR832OGB,hg19,ENCFF043YZF,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,LEF1,K562
 ENCSR514VYD,hg19,ENCFF810CEL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2F1,GM12878
-ENCSR024CNP,hg19,ENCFF558JBX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EGR1,K562
 ENCSR784VIQ,hg19,ENCFF381SBC,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NR2C1,GM12878
 ENCSR732PJX,hg19,ENCFF317VBQ,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NKRF,GM12878
-ENCSR680OFU,hg19,ENCFF784YVX,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,HeLa-S3
 ENCSR120MPG,hg19,ENCFF294HEI,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PRDM10,K562
-ENCSR894SXR,hg19,ENCFF949EAE,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TCF12,HepG2
 ENCSR000BTR,hg19,ENCFF532YDL,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,MCF-7
-ENCSR000AOA,hg19,ENCFF768OPK,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,HeLa-S3
 ENCSR000BKQ,hg19,ENCFF076YZO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ETS1,K562
 ENCSR000BHD,hg19,ENCFF339KUO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PAX5,GM12878
-ENCSR000BQI,hg19,ENCFF471HCD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPB,HepG2
 ENCSR000BNP,hg19,ENCFF967ACD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YY1,GM12878
 ENCSR485OYR,hg19,ENCFF362WUO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB25,HepG2
 ENCSR712FAM,hg19,ENCFF579BTD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZSCAN9,HepG2
 ENCSR201GGK,hg19,ENCFF833TMD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFIL3,HepG2
-ENCSR000BHM,hg19,ENCFF453HPD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,H1
 ENCSR813DCK,hg19,ENCFF632MBO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SMAD1,GM12878
 ENCSR000EDS,hg19,ENCFF922GRD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MAX,HepG2
 ENCSR000EGC,hg19,ENCFF484CKD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RCOR1,K562
@@ -829,55 +705,38 @@ ENCSR000DYP,hg19,ENCFF371OGO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR000BGI,hg19,ENCFF805GKD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF1,GM12878
 ENCSR000DYR,hg19,ENCFF721SDD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CUX1,GM12878
 ENCSR000BIV,hg19,ENCFF725LDD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SRF,H1
-ENCSR000BGE,hg19,ENCFF199WGD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SRF,GM12878
-ENCSR663ZZZ,hg19,ENCFF628SBD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MNT,MCF-7
-ENCSR000DMA,hg19,ENCFF002DBD,bed narrowPeak,optimal IDR thresholded peaks,,Lab,CTCF,K562
-ENCSR000BIE,hg19,ENCFF237OKO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,HepG2
 ENCSR000BLO,hg19,ENCFF833FCO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPA,K562
 ENCSR924TVL,hg19,ENCFF949QZO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RFX5,MCF-7
-ENCSR000DZG,hg19,ENCFF462GHD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,GM12878
 ENCSR000EHG,hg19,ENCFF150VTD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,USF2,K562
-ENCSR000BHJ,hg19,ENCFF199FYD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PAX5,GM12878
 ENCSR000ECJ,hg19,ENCFF002CTO,bed narrowPeak,optimal IDR thresholded peaks,,Lab,ZKSCAN1,HeLa-S3
 ENCSR000EDF,hg19,ENCFF002CSO,bed narrowPeak,optimal IDR thresholded peaks,,Lab,IRF3,HeLa-S3
-ENCSR000BHB,hg19,ENCFF302XID,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,GM12878
-ENCSR000DTW,hg19,ENCFF328FUO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,HEK293
-ENCSR000DYD,hg19,ENCFF543VGD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CTCF,A549
 ENCSR000EDG,hg19,ENCFF002CSD,bed narrowPeak,optimal IDR thresholded peaks,,Lab,JUN,HeLa-S3
 ENCSR000BRR,hg19,ENCFF696KPD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,STAT5A,K562
-ENCSR000EDV,hg19,ENCFF259JWD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,EP300,HepG2
 ENCSR737LTZ,hg19,ENCFF583DZD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MYNN,K562
 ENCSR588MQZ,hg19,ENCFF752ZRD,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF626,HEK293
 ENCSR776LDJ,hg19,ENCFF605RAD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CBLL2,HEK293
 ENCSR103GAK,hg19,ENCFF637SBD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF175,HEK293
 ENCSR076EZB,hg19,ENCFF904HOD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,KLF9,HEK293
 ENCSR140DSL,hg19,ENCFF411BAO,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,MAFF,HeLa-S3
-ENCSR112ALD,hg19,ENCFF161PGD,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,CREB1,HepG2
 ENCSR283ZNI,hg19,ENCFF589EVD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB8A,K562
 ENCSR797SWM,hg19,ENCFF497XOD,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,MITF,K562
 ENCSR455DOO,hg19,ENCFF659XDO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,RCOR2,HepG2
 ENCSR387SYS,hg19,ENCFF786WZD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,DEAF1,K562
-ENCSR066EBK,hg19,ENCFF683KBO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,FOXA2,HepG2
 ENCSR417VWF,hg19,ENCFF232UWD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZEB2,HEK293
 ENCSR382GSF,hg19,ENCFF201GAD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,INSM2,HEK293
 ENCSR767XSF,hg19,ENCFF308CQD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF555,HEK293
 ENCSR714LYA,hg19,ENCFF977PXD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,PRDM2,HEK293
 ENCSR632SIM,hg19,ENCFF170OWD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZFHX2,HEK293
-ENCSR968GIB,hg19,ENCFF010UHD,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,RFX1,K562
 ENCSR715QNO,hg19,ENCFF107VFO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF362,HEK293
-ENCSR542FLV,hg19,ENCFF539CKD,bed narrowPeak,optimal IDR thresholded peaks,"1, 4",ENCODE3,ZBTB33,GM12878
 ENCSR752NDX,hg19,ENCFF266KSD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF282,HepG2
-ENCSR552YGL,hg19,ENCFF911VSD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFE2,K562
 ENCSR462KYU,hg19,ENCFF476ZWO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,GABPB1,HepG2
 ENCSR892DRK,hg19,ENCFF188XRD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,REST,A549
 ENCSR229DYF,hg19,ENCFF462ZZD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZBTB26,HEK293
 ENCSR331BDJ,hg19,ENCFF906PGD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NKRF,K562
 ENCSR864KNH,hg19,ENCFF129AXO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,YBX1,MCF-7
-ENCSR213VUI,hg19,ENCFF574LAO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,TRIM25,K562
 ENCSR909GJR,hg19,ENCFF202AQO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,MXD3,HepG2
 ENCSR950NAZ,hg19,ENCFF308BSD,bed narrowPeak,optimal IDR thresholded peaks,"3, 4",ENCODE3,LCORL,HepG2
 ENCSR490LWA,hg19,ENCFF272ULO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,CEBPG,K562
-ENCSR426URK,hg19,ENCFF360BTO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,AFF1,K562
 ENCSR019NPF,hg19,ENCFF444QQD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,SP5,HepG2
 ENCSR096LSN,hg19,ENCFF341FTO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF311,HEK293
 ENCSR746XEG,hg19,ENCFF166FRO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,NFXL1,GM12878
@@ -886,5 +745,4 @@ ENCSR547LKC,hg19,ENCFF549KOD,bed narrowPeak,optimal IDR thresholded peaks,"1, 2"
 ENCSR503DPC,hg19,ENCFF279KVD,bed narrowPeak,optimal IDR thresholded peaks,"2, 3",ENCODE3,ZNF513,HEK293
 ENCSR564YYW,hg19,ENCFF561OIO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF157,HEK293
 ENCSR859FDL,hg19,ENCFF643OWO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF687,GM12878
-ENCSR362NWP,hg19,ENCFF443EYO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ZNF24,HepG2
 ENCSR231ENE,hg19,ENCFF884RAO,bed narrowPeak,optimal IDR thresholded peaks,"1, 2",ENCODE3,ARID3A,MCF-7
