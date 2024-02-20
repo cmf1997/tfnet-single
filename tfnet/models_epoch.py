@@ -16,13 +16,12 @@ import torch.nn as nn
 import csv
 
 from pathlib import Path
-from torch.utils.data import DataLoader, SequentialSampler
+from torch.utils.data import DataLoader
 from tfnet.datasets import TFBindDataset
 from tqdm import tqdm
 from logzero import logger
 from typing import Optional, Mapping, Tuple
-from tfnet.evaluation import get_mean_auc, get_label_ranking_average_precision_score, get_mean_accuracy_score, get_mean_balanced_accuracy_score, get_mean_recall, get_mean_aupr, get_f1, get_mean_f1
-from tfnet.all_tfs import all_tfs
+from tfnet.evaluation import get_auc, get_f1, get_accuracy_score, get_balanced_accuracy_score, get_recall, get_aupr, get_pcc, get_srcc
 import matplotlib.pyplot as plt
 import pdb
 import warnings 
@@ -114,8 +113,8 @@ class Model(object):
     def train(self, data_cnf, model_cnf, train_data, valid_data, class_weights_dict=None, opt_params: Optional[Mapping] = (),
                num_epochs=20, verbose=True, **kwargs): 
         
-        valid_loader = DataLoader(TFBindDataset(valid_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
-                              batch_size=model_cnf['valid']['batch_size']) 
+        valid_loader = DataLoader(TFBindDataset(valid_data, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
+                              batch_size=model_cnf['valid']['batch_size'])
         W_values = np.linspace(0, len(train_data), num_epochs + 1)
         W_chunks = list(map(int, W_values))
 
@@ -134,8 +133,8 @@ class Model(object):
             # ---------------------- for samples_per_epoch ---------------------- #
 
             train_data_single_epoch = train_data[W_chunks[epoch_idx]: W_chunks[epoch_idx + 1]]
-            train_loader = DataLoader(TFBindDataset(train_data_single_epoch, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
-                              batch_size=model_cnf['train']['batch_size'], shuffle=False) # must be shuffle=False
+            train_loader = DataLoader(TFBindDataset(train_data_single_epoch, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
+                              batch_size=model_cnf['train']['batch_size'], shuffle=True) 
             # ---------------------- section ---------------------- #
 
             for inputs, targets in tqdm(train_loader, desc=f'Epoch {epoch_idx}', leave=False, dynamic_ncols=True):
@@ -156,40 +155,30 @@ class Model(object):
 
     def valid(self, valid_loader, verbose, epoch_idx, train_loss, class_weights_dict=None, **kwargs):
         scores, targets = self.predict(valid_loader, valid=True, **kwargs), valid_loader.dataset.bind_list
-
         valid_loss = torch.nn.functional.binary_cross_entropy_with_logits(torch.tensor(scores).to(mps_device), torch.tensor(targets).to(mps_device))
-        mean_auc = get_mean_auc(targets, scores)
-        f1_score = get_mean_f1(targets, scores)
-        recall_score = get_mean_recall(targets, scores)
-        aupr = get_mean_aupr(targets, scores)
-        lrap = get_label_ranking_average_precision_score(targets, scores)
-        accuracy = get_mean_accuracy_score(targets, scores)
-        balanced_accuracy = get_mean_balanced_accuracy_score(targets, scores)
-        
-        '''
-        f1_list, cutoffs = get_f1(targets, scores)
 
-        mean_auc = get_mean_auc(targets, scores)
-        aupr = get_mean_aupr(targets, scores)
-        f1_score = np.mean(f1_list)
-        recall_score = get_mean_recall(targets, scores, cutoffs)
-        lrap = get_label_ranking_average_precision_score(targets, scores)
-        accuracy = get_mean_accuracy_score(targets, scores, cutoffs)
-        balanced_accuracy = get_mean_balanced_accuracy_score(targets, scores, cutoffs)
-        '''
+        auc = get_auc(targets, scores)
+        pcc = get_pcc(targets, scores)
+        srcc = get_srcc(targets, scores)
+        f1_score = get_f1(targets, scores)
+        recall_score = get_recall(targets, scores)
+        aupr = get_aupr(targets, scores)
+        accuracy = get_accuracy_score(targets, scores)
+        balanced_accuracy = get_balanced_accuracy_score(targets, scores)
 
-        if mean_auc > self.training_state['best']:
+        if auc > self.training_state['best']:
             self.save_model()
-            self.training_state['best'] = mean_auc
+            self.training_state['best'] = auc
         if verbose:
             logger.info(f'Epoch: {epoch_idx}  '
                         f'train loss: {train_loss:.5f}  '
                         f'valid loss: {valid_loss:.5f}  ' 
-                        f'mean_auc: {mean_auc:.5f}  '
+                        f'auc: {auc:.5f}  '
                         f'aupr: {aupr:.5f}  '
+                        f'pcc: {pcc:.5f}  '
+                        f'srcc: {srcc:.5f}  '
                         f'recall score: {recall_score:.5f}  '
                         f'f1 score: {f1_score:.5f}  '
-                        f'lrap: {lrap:.5f}  '
                         f'accuracy: {accuracy:.5f}  '
                         f'balanced accuracy: {balanced_accuracy:.5f}'
                         )
@@ -197,7 +186,7 @@ class Model(object):
         # ---------------------- record data for plot ---------------------- #
         with open('results/train_record.txt', 'a') as output_file:
             writer = csv.writer(output_file, delimiter="\t")
-            writer.writerow([epoch_idx, train_loss, valid_loss.item(), mean_auc, f1_score, lrap, accuracy, balanced_accuracy])
+            writer.writerow([epoch_idx, train_loss, valid_loss.item(), auc, f1_score, accuracy, balanced_accuracy])
 
         loss_data = np.loadtxt('results/train_record.txt')
         if len(loss_data.shape) != 1:
@@ -215,12 +204,13 @@ class Model(object):
             plt.plot(loss_data[:,4], label='f1')
             plt.legend(loc='best')
             plt.subplot(1, 4, 4)     
-            plt.plot(loss_data[:,7], label='balanced accuracy')
+            plt.plot(loss_data[:,6], label='balanced accuracy')
             plt.legend(loc='best')
             plt.savefig('results/train.pdf')
             plt.close()
 
         return balanced_accuracy, valid_loss
+    
 
     def predict(self, data_loader: DataLoader, valid=False, **kwargs):
         if not valid:

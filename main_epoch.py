@@ -42,7 +42,7 @@ def train(model, data_cnf, model_cnf, train_data, valid_data=None, class_weights
 
 
 def test(model, data_cnf, model_cnf, test_data):
-    data_loader = DataLoader(TFBindDataset(test_data, data_cnf['genome_fasta_file'], data_cnf['bigwig_file'], **model_cnf['padding']),
+    data_loader = DataLoader(TFBindDataset(test_data, data_cnf['genome_fasta_file'], data_cnf['mappability'], data_cnf['chromatin'], **model_cnf['padding']),
                              batch_size=model_cnf['test']['batch_size'])
     return model.predict(data_loader)
 
