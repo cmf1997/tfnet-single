@@ -56,6 +56,9 @@ python preprocess_data.py -d configure/data.yaml -m configure/tfnet.yaml
 
 ```
 python main.py -d configure/data.yaml -m configure/tfnet.yaml --mode train -n 5
+# with large training data, split data by epoch and train
+python main_epoch.py -d configure/data_grch38.yaml -m configure/tfnet.yaml --mode train -n 5
+
 python main.py -d configure/data.yaml -m configure/tfnet.yaml --mode eval -n 5 # evaluate on test set
 python main.py -d configure/data.yaml -m configure/tfnet.yaml --mode predict -n 5 # predict on independent data set
 

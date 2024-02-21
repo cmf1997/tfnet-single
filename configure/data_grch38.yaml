@@ -9,10 +9,10 @@ predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
 genome_fasta_file: ../TFNET-multi-tf/data/genome/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta
 
 mappability: ../TFNET-multi-tf/data/genome/grch38.k36.Umap.MultiTrackMappability.bw
-chromatin: ['../TFNET-multi-tf/data/atac/grch38/A549.bw','../TFNET-multi-tf/data/atac/grch38/GM12878.bw','../TFNET-multi-tf/data/atac/grch38/H1ESC.bw',
-            '../TFNET-multi-tf/data/atac/grch38/WTC11.bw','../TFNET-multi-tf/data/atac/grch38/HeLa-S3.bw','../TFNET-multi-tf/data/atac/grch38/HepG2.bw',
-            '../TFNET-multi-tf/data/atac/grch38/K562.bw','../TFNET-multi-tf/data/atac/grch38/MCF-7.bw','../TFNET-multi-tf/data/atac/grch38/SK-N-SH.bw']
-            #'../TFNET-multi-tf/data/atac/grch38/HEK293.bw']
+chromatin: ['../TFNET-multi-tf/data/atac/grch38/A549.bigWig','../TFNET-multi-tf/data/atac/grch38/GM12878.bigWig','../TFNET-multi-tf/data/atac/grch38/H1ESC.bigWig',
+            '../TFNET-multi-tf/data/atac/grch38/WTC11.bigWig','../TFNET-multi-tf/data/atac/grch38/HeLa-S3.bigWig','../TFNET-multi-tf/data/atac/grch38/HepG2.bigWig',
+            '../TFNET-multi-tf/data/atac/grch38/K562.bigWig','../TFNET-multi-tf/data/atac/grch38/MCF-7.bigWig','../TFNET-multi-tf/data/atac/grch38/SK-N-SH.bigWig']
+            #'../TFNET-multi-tf/data/atac/grch38/HEK293.bigWig']
 
 
 results: results

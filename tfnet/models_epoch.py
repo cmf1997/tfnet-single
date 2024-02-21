@@ -118,7 +118,7 @@ class Model(object):
         W_values = np.linspace(0, len(train_data), num_epochs + 1)
         W_chunks = list(map(int, W_values))
 
-        num_epochs = num_epochs * 20 # custom true epoch for entire dataset
+        num_epochs = num_epochs * 5 # custom true epoch for entire dataset
 
     # ---------------------- section ---------------------- #
     
@@ -128,7 +128,7 @@ class Model(object):
         for epoch_idx in range(num_epochs):
             train_loss = 0.0
             
-            epoch_idx %= 5 # due to the formation of train dataset
+            epoch_idx %= 5 # be the same to epoch, 
 
             # ---------------------- for samples_per_epoch ---------------------- #
 
