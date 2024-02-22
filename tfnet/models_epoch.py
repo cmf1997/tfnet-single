@@ -128,7 +128,7 @@ class Model(object):
         for epoch_idx in range(num_epochs):
             train_loss = 0.0
             
-            epoch_idx %= 5 # be the same to epoch, 
+            epoch_idx %= 10 # be the same to epoch, 
 
             # ---------------------- for samples_per_epoch ---------------------- #
 
