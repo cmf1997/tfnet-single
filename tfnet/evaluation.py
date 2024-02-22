@@ -90,7 +90,7 @@ def get_balanced_accuracy_score(targets, scores, cutoff=CUTOFF):
 #        pdb.set_trace()
 
 
-def output_eval(chrs, starts, stops, targets_lists, scores_lists, tfs, output_path: Path):
+def output_eval(chrs, starts, stops, targets_lists, scores_lists, tfs, celltypes, output_path: Path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     eval_out_path = output_path.with_suffix('.eval.tsv')
 
@@ -132,8 +132,8 @@ def output_eval(chrs, starts, stops, targets_lists, scores_lists, tfs, output_pa
 
     with open(eval_out_path, 'w') as fp:
         writer = csv.writer(fp, delimiter="\t")
-        for chr, start, stop, tf, targets_list, ori_scores_list, scores_list in zip(chrs, starts, stops, tfs, targets_lists.tolist(), ori_scores_lists, scores_lists):
-            writer.writerow([chr, start, stop, tf, targets_list, ori_scores_list, scores_list])
+        for chr, start, stop, tf, celltype, targets_list, ori_scores_list, scores_list in zip(chrs, starts, stops, tfs, celltypes, targets_lists.tolist(), ori_scores_lists, scores_lists):
+            writer.writerow([chr, start, stop, tf, celltype, targets_list, ori_scores_list, scores_list])
     logger.info(
             f'auc: {metrics[0]:.5f}  '
             f'aupr: {metrics[1]:.5f}  '
@@ -147,15 +147,16 @@ def output_eval(chrs, starts, stops, targets_lists, scores_lists, tfs, output_pa
     logger.info(f'Eval Completed')
 
 
-def output_predict(chrs, starts, stops, scores_lists, tfs, output_path: Path):
+def output_predict(chrs, starts, stops, scores_lists, tfs, celltypes, output_path: Path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     predict_out_path = output_path.with_suffix('.predict.tsv')
 
+    ori_scores_lists = scores_lists.tolist()
     scores_lists = np.where(scores_lists > CUTOFF, 1, 0).tolist()
 
     with open(predict_out_path, 'w') as fp:
         writer = csv.writer(fp, delimiter="\t")
-        writer.writerow(['chr', 'start', 'stop', 'predict'])
-        for chr, start, stop, tf, scores_list in zip(chrs, starts, stops, tfs, scores_lists):
-            writer.writerow([chr, start, stop, tf, scores_list])
+        #writer.writerow(['chr', 'start', 'stop', 'predict'])
+        for chr, start, stop, tf, celltype, ori_scores_list, scores_list in zip(chrs, starts, stops, tfs, celltypes, ori_scores_lists, scores_lists):
+            writer.writerow([chr, start, stop, tf, celltype, ori_scores_list, scores_list])
     logger.info(f'Predicting Completed')

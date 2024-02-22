@@ -3,8 +3,10 @@ tf_seq : data/tf_pseudosequences.2024.txt
 train: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
 
 #valid: data/tf_chip/lazy/data_valid.txt.gz
-test: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
-predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+#test: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+test: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
+#predict: data/tf_chip/K562/model_data/ARID3A.data_valid.txt.gz
+predict: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
 
 genome_fasta_file: ../TFNET-multi-tf/data/genome/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta
 
