@@ -36,17 +36,29 @@ __all__ = ['Model']
 
 # code
 class EarlyStopper:
-    def __init__(self, patience=5, min_delta=0):
+    def __init__(self, patience=5, min_delta=0, init_value_low= float('inf'), init_value_high= 0):
+        # init_value = float('inf') for valid loss, init_value = 0 for balanced accuracy
         self.patience = patience
         self.min_delta = min_delta
         self.counter = 0
-        self.min_validation_loss = float('inf')
+        self.init_value_low = init_value_low
+        self.init_value_high = init_value_high
 
-    def early_stop(self, validation_loss):
-        if validation_loss < self.min_validation_loss:
-            self.min_validation_loss = validation_loss
+    def early_stop_low(self, exam_value):
+        if exam_value < self.init_value_low:
+            self.init_value_low = exam_value
             self.counter = 0
-        elif validation_loss > (self.min_validation_loss + self.min_delta):
+        elif exam_value > (self.init_value_low + self.min_delta):
+            self.counter += 1
+            if self.counter >= self.patience:
+                return True
+        return False
+
+    def early_stop_high(self, exam_value):
+        if exam_value > self.init_value_high:
+            self.init_value_high = exam_value
+            self.counter = 0
+        elif exam_value < (self.init_value_high - self.min_delta):
             self.counter += 1
             if self.counter >= self.patience:
                 return True
@@ -69,8 +81,8 @@ class Model(object):
         self.optimizer = None
         self.training_state = {}
 
-        self.early_stopper_1 = EarlyStopper(patience=10, min_delta=0.4)
-        self.early_stopper_2 = EarlyStopper(patience=10, min_delta=0.4)
+        self.early_stopper_1 = EarlyStopper(patience=8, min_delta=0.005)
+        self.early_stopper_2 = EarlyStopper(patience=8, min_delta=0.005)
 
     def get_scores(self, inputs, **kwargs):
         return self.model(*(x.to(mps_device) for x in inputs), **kwargs)
@@ -144,10 +156,10 @@ class Model(object):
             #train_loss /= len(train_loader.dataset)
 
             balanced_accuracy,valid_loss = self.valid(valid_loader, verbose, epoch_idx, train_loss, class_weights_dict)
-            if self.early_stopper_1.early_stop(valid_loss):
+            if self.early_stopper_1.early_stop_low(valid_loss):
                 logger.info(f'Early Stopping due to valid loss')
                 break
-            if self.early_stopper_2.early_stop(balanced_accuracy):
+            if self.early_stopper_2.early_stop_high(balanced_accuracy):
                 logger.info(f'Early Stopping due to balanced accuracy')
                 break            
         # ---------------------- record loss for each epoch and plot---------------------- #
