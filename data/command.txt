@@ -1,0 +1,1 @@
+paste -d '\t' - - < tf_pseudo/len36/zf-C2H2\(2\).fa | sed 's/>//g' | sed 's/^M//g' > tf_pseudosequences.len36.2024.txt
