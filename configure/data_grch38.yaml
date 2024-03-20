@@ -1,6 +1,6 @@
 tf_seq : data/tf_pseudosequences.2024.txt
 
-train: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
+train: data/tf_chip/K562.ARID3A.data_test.txt.gz
 #valid: data/tf_chip/lazy/data_valid.txt.gz
 test: data/tf_chip/K562/model_data/cmf.test.data.txt.gz
 predict: data/tf_chip/K562/model_data/cmf.test.data.txt.gz

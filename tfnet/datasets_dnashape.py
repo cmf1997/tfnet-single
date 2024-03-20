@@ -111,16 +111,16 @@ class TFBindDataset(Dataset):
         bigwig_signals_rc = []    
 
         mappability_bw = self.mappability_bw.values(chr,start,stop)
-        #mappability_bw[np.isnan(mappability_bw)] = 0
-        np.array(mappability_bw)[np.isnan(mappability_bw)] = 0
+        mappability_bw = np.array(mappability_bw)
+        mappability_bw[np.isnan(mappability_bw)] = 0
 
         bigwig_signals.append(mappability_bw)
         bigwig_signals_rc.append(mappability_bw[::-1].copy())
 
         #pdb.set_trace()
         chromatin_bw =  pyBigWig.open(self.chromatin_bw[celltype]).values(chr,start,stop)
-        #chromatin_bw[np.isnan(chromatin_bw)] = 0
-        np.array(chromatin_bw)[np.isnan(chromatin_bw)] = 0
+        chromatin_bw = np.array(chromatin_bw)
+        chromatin_bw[np.isnan(chromatin_bw)] = 0
 
         bigwig_signals.append(chromatin_bw)
         bigwig_signals_rc.append(chromatin_bw[::-1].copy())
