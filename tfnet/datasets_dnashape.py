@@ -69,9 +69,12 @@ class TFBindDataset(Dataset):
 
         celltype = celltype.rstrip('\n')
         # ---------------------- shift ---------------------- #
+        '''
+        # disable because may cause N in seq result in error in dnashape
         shift = np.random.randint(-20, 20+1)
         start += shift
         stop += shift
+        '''
 
         DNA_seq = self.genome_fasta.fetch(chr, start, stop)
         if self.DNA_N:
