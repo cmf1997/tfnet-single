@@ -15,9 +15,10 @@ import torch
 
 from torch.utils.data.dataset import Dataset
 from tfnet.data_utils import ACIDS
-from tfnet.generate_dnashape import seq_to_shape
+from tfnet.generate_dnashape import seq_to_shape5_dict, seq_to_shape14_dict
 import re
 import pysam
+import pandas as pd
 from pathlib import Path
 import pyBigWig
 import pdb
@@ -51,6 +52,13 @@ class TFBindDataset(Dataset):
         self.tf_len = tf_len
         self.bind_list = [ i[-3] for i in data_list]
         self.bind_list = np.asarray(self.bind_list, dtype=np.float32)
+
+        #self.dnashape = pd.read_csv("./tfnet/dnashape14.2.csv", header=0, index_col=0) # for dnashape14
+        self.dnashape = pd.read_csv("./tfnet/dnashape5.2.csv", header=0, index_col=0) # for dnashape5
+        #if normalize:
+        #    self.dnashape = self.dnashape.apply(lambda x: (x - np.min(x)) / (np.max(x) - np.min(x)))
+        self.dnashape_dict =self.dnashape.apply(lambda x: x.dropna().tolist(), axis=1).to_dict()
+        #self.dnashape_dict =self.dnashape.apply(lambda x: x.dropna().tolist(), axis=1).to_dict()        
 
     def __getitem__(self, idx):
         chr, start, stop, bind_list, tf, celltype= self.data_list[idx]
@@ -87,8 +95,10 @@ class TFBindDataset(Dataset):
 
 
         # ---------------------- DNA shape info ---------------------- #
-        DNA_shape_unpad = torch.tensor(seq_to_shape(DNA_seq, normalize=True), dtype=torch.float32)
-        zero_padding = torch.zeros(2, 14)
+        DNA_shape_unpad = torch.tensor(seq_to_shape5_dict(DNA_seq, self.dnashape_dict), dtype=torch.float32) # much faster than seq_to_shape5
+        #DNA_shape_unpad = torch.tensor(seq_to_shape14_dict(DNA_seq, self.dnashape), dtype=torch.float32)
+        zero_padding = torch.zeros(2, 5) # for dnashape5
+        #zero_padding = torch.zeros(2, 14) # for dnashape14
         DNA_shape = torch.cat([zero_padding, DNA_shape_unpad, zero_padding], dim=0)
         DNA_x = torch.cat([DNA_x, DNA_shape],dim=1)
 
