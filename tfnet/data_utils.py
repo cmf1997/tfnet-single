@@ -51,11 +51,12 @@ def get_data_lazy(data_file, tf_name_seq, genome_fasta_file, DNA_N = True):
 
             # ---------------------- despite n ---------------------- #
             DNA_seq = genome_fasta.fetch(chr, start, stop)
-            if len(DNA_seq) != len(re.findall('[atcg]', DNA_seq.lower())):
-                continue
+            if len(DNA_seq) == len(re.findall('[atcg]', DNA_seq.lower())):
+                data_list.append((chr, start, stop, bind_target, tf_name_seq[tf], celltype))
+                #continue
 
             # ---------------- append data ---------------------- #
-            data_list.append((chr, start, stop, bind_target, tf_name_seq[tf], celltype))
+            #data_list.append((chr, start, stop, bind_target, tf_name_seq[tf], celltype))
 
     genome_fasta.close()        
     logger.info(f'number of data_list: {len(data_list)}')
