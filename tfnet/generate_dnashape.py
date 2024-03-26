@@ -17604,7 +17604,7 @@ def seq_to_shape5(seq, dnashape5):
     return translation
 
 
-def seq_to_shape5_dict(seq, dnashape5_dict):
+def seq_to_shape_dict(seq, dnashape_dict):
     seq = seq.upper()
     assert len(seq) > 4, "Sequence too short (has to be at least 5 bases)"
     shape_position_value = []
@@ -17615,25 +17615,7 @@ def seq_to_shape5_dict(seq, dnashape5_dict):
                 ):
             continue 
         else:
-            shape_position_value.append(dnashape5_dict[current_pentamer])
-    shape_position_value = np.array(shape_position_value)
-    shape_position_value[np.isnan(shape_position_value)] = 0
-    return shape_position_value
-
-
-
-def seq_to_shape14_dict(seq, dnashape14_dict):
-    seq = seq.upper()
-    assert len(seq) > 4, "Sequence too short (has to be at least 5 bases)"
-    shape_position_value = []
-    for index in range(0, len(seq)):
-        current_pentamer = seq[index - 2 : index + 3]
-        if (len(current_pentamer) < 5) or not all(
-                base in "ACGT" for base in current_pentamer
-                ):
-            continue 
-        else:
-            shape_position_value.append(dnashape14_dict[current_pentamer])
+            shape_position_value.append(dnashape_dict[current_pentamer])
     shape_position_value = np.array(shape_position_value)
     shape_position_value[np.isnan(shape_position_value)] = 0
     return shape_position_value
